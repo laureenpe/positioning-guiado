@@ -9,17 +9,32 @@ body{
 .caja{
     width: 200px;
     height: 200px;
+    /*le agregamos position absolute*/
+    position: absolute;
 }
 #rosa{
     background-color: #EE3E64;
+    /*adicion left y top*/
+    left: 0;
+    top: 0;
 }
 #azul{
     background-color: #2B7DB9;
     position: relative;
     left: 200px;
+    top: 200px;
     /*Con left le decimos que desde la izquierda se aleje 200px*/
 }
 #verde{
     background-color: #B7D84D;
+    left: 0;
+    bottom: 0;
+
 }
-/*Hata aquí es static*/
+/*adicionamos el amarillo*/
+#amarillo{
+    background-color: #FAFF16;
+    left: 0;
+    bottom: 0;
+    
+}

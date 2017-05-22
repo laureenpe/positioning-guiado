@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    /*le agregamos position absolute*/
+    position: absolute;
+}
+#rosa{
+    background-color: #EE3E64;
+    /*adicion left y top*/
+    left: 0;
+    top: 0;
+}
+#azul{
+    background-color: #2B7DB9;
+    right: 0;
+    top: 0;
+    /*Con left le decimos que desde la izquierda se aleje 200px*/
+}
+#verde{
+    background-color: #B7D84D;
+    left: 0;
+    bottom: 0;
+
+}
+/*adicionamos el amarillo*/
+#amarillo{
+    background-color: #FAFF16;
+    left: 0;
+    bottom: 0;
+    
+}
+/*Cuando un valor es cero(o) no es necesario ponerle
+el tipo de medida ya que es cero. EN el ejemplo anterior, a todas
+las cajas les damos la posicion absolute en las propiedades
+de la clase "caja", mientras que las cosas particulares
+de cada elementose le da en su ID particular*/
